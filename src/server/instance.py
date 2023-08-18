@@ -11,6 +11,6 @@ class Server():
                        doc='/docs',default="Documentação", default_label="api")
     
     def run(self):
-        self.app.run(debug=True)
+        self.app.run(port=8000, debug=True)
 
 server = Server()
