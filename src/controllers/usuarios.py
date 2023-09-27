@@ -5,7 +5,7 @@ from src.server.instance import server
 from src.server.models.usuarios import usuario, Usuario, cpf
 
 # Conexão à instância RDS na AWS
-url = 'postgres://postgres:postgres@api-deborah.c6u7sarwqno4.us-east-1.rds.amazonaws.com/postgres'
+url = 'postgres://postgres:postgres@deborah-rds.c6u7sarwqno4.us-east-1.rds.amazonaws.com/postgres'
 connection = psycopg2.connect(url)
 
 # Manipulação do banco de dados
